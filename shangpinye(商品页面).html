@@ -1,0 +1,568 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="Keywords" content="鲜花网,鲜花店,鲜花预定,鲜花预订,生日蛋糕,生日鲜花,北京鲜花店,上海鲜花预定,鲜花速递" />
+<meta name="Description" content="送花网作为全国鲜花速递网站，提供2011光棍节鲜花速递服务，同样的鲜花8折的价格。全球范围内10000多家花店鲜花送花服务。送花网让每位客户都能享受鲜花的及时实惠的体验。欢迎致电400-7070-500询问最新鲜花产品，鲜花信息。" />
+<title>送花网_光棍节鲜花预订_全国鲜花速递_生日鲜花_北京上海杭州鲜花预定_卡通花束</title>
+<link rel="stylesheet" type="text/css" href="css/pub.css" />
+<link rel="stylesheet" type="text/css" href="css/shangpinye.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/detail.css" />
+<style type="text/css">
+
+#box{
+position:absolute;
+width:230px;
+height:60px;
+background:#F5F9FA;
+border:2px solid #95B5D5;
+display:none;
+}
+</style>
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#guessFavorite .drawer_title>h3").mouseover(function(){
+		if($(this).attr("class")!="drawer_hover"){
+			var index_num=$(this).parent().find("h3").index($(this)[0]);
+			$(this).parent().find("h3.drawer_hover").removeAttr("class");
+			$(this).attr("class","drawer_hover");
+			$(this).parent().parent().find("ul:visible").hide();
+			$(this).parent().parent().find("ul").eq(index_num).show();
+		}
+	})
+	$("#goodsMinorDetail .drawer_title>h3[rel!='ignore']").css('cursor','pointer');
+	$("#goodsMinorDetail .drawer_title>h3[rel!='ignore']").click(function(){
+		if($(this).attr("class")!="drawer_hover"){
+			var index_num=$(this).parent().find("h3").index($(this)[0]);
+			$(this).parent().find("h3.drawer_hover").removeAttr("class");
+			$(this).attr("class","drawer_hover");
+			$(this).parent().parent().find(".drawer_content1").hide();
+			if($(this).attr("rel")=="comment"){
+				$('#goodsRelatedWiki').hide();
+				$('#customerComment').css('margin-top','0');
+				$('#customerComment .drawer_title').hide();
+			}else{
+				$('#goodsRelatedWiki').show();
+				$('#customerComment').css('margin-top','10px');
+				$('#customerComment .drawer_title').show();
+				$(this).parent().parent().find(".drawer_content1").eq(index_num).show();
+			}
+		}	
+	})
+	$('#goodsPicList li').css('cursor','pointer');
+	$('#goodsPicList li').click(function(){
+		$('#display_image').attr('src',$(this).attr("rel"));
+		$(this).parent().find("li.pic_selected").removeAttr("class");
+		$(this).attr("class","pic_selected");
+	});
+})
+</script>
+</head>
+
+<body>
+  <!--toplink-star-->
+  <div id="shortcut">
+    <div class="toplk">
+      <span class="login">您好！来到送花网鲜花商城！<a href="" class="link-regist">[请登录]</a><a href="" class="link-regist">[免费注册]</a></span>
+      <ul>
+       <li><a href="">收藏送花</a></li>
+       <li>|</li>   
+       <li class="sub">
+         <dl>
+           <dt><b></b><a href="" target="_blank">我的订单</a>
+           </dt>
+           <dd>
+             <div><a href="" target="_blank">常见问题</a></div><div><a href="" target="_blank">售后服务</a></div><div><a href="">投诉中心</a></div><div><a href="" target="_blank">客服邮箱</a></div>
+           </dd>
+         </dl>
+       </li>
+       <li>|</li>
+       <li class="sub">
+         <dl>
+           <dt><b></b><a href="" target="_blank">我的送花</a>
+           </dt>
+           <dd>
+             <div><a href="" target="_blank">常见问题</a></div><div><a href="" target="_blank">售后服务</a></div><div><a href="">投诉中心</a></div><div><a href="" target="_blank">客服邮箱</a></div>
+           </dd>
+         </dl>
+       </li>
+       <li>|</li>
+       <li><a href="" target="_blank">帮助中心</a></li>
+       <li class="fore2">订购热线：4000-7070-500</li>
+     </ul>
+   </div>
+  </div>
+  <!--toplink-end-->
+  <!--container-->
+ <div id="container">
+  <!--logo-search-star-->
+   <div id="logo-search">
+      <div class="logo"><a href=""><img src="images/logo.jpg" /></a></div>
+      <div class="search">
+          <div class="form"><input type="text" id="key" value="11朵鲜花" class="key"><input type="submit" value="搜&nbsp;索" class="tj"></div>
+          <p><strong>热门搜索词：</strong><a href="" target="_blank">红玫瑰</a><a href="" target="_blank">卡通花束</a><a href="" target="_blank">节日鲜花</a><a href="" target="_blank">特价</a></p>
+      </div>
+      <div class="clear"></div>
+   </div>
+  <!--logo-search-end-->
+  <!--nav-star-->
+   <div id="nav">
+   <div id="nav-index"><a href="">首页</a></div>   
+     <div id="nav-extra">
+       <ul>
+          <li id="nav-pop" class="cur"><a href="">鲜花</a><b></b></li>
+          <li id="nav-tuan"><a href="">卡通花束</a></li>
+          <li id="nav-auction"><a href="">蛋糕</a></li>
+          <li id="nav-read"><a href="">礼篮</a></li>
+          <li id="nav-club"><a href="">绿植</a></li>
+          <li id="nav-category"><a href="">会员专区</a><b></b></li>
+        </ul>
+     </div>
+     <div id="nav-area">
+        <ul>
+          <li><img src="images/area_09.gif" /><a href="">日本送花</a></li>
+          <li><img src="images/area_03.gif" class="two" /><a href="">台湾送花</a></li>
+          <li><img src="images/area_06.gif" class="three" /><a href="">蝴蝶兰</a></li>
+        </ul>
+     </div>
+</div> 
+  <!--nav-end-->
+  <!--buy-star-->
+     <div id="buy">
+         <div>送花网重庆节鲜花火热预定中！</div>
+         <ul>
+           <li class="one">购物车中有<span>0</span>件商品</li>
+           <li><a href=""><img src="images/jies.gif" /></a></li>
+         </ul>
+     </div>
+  <!--buy-end-->
+  <!--place-star-->
+     <div class="xxplace">您所在的位置：<a href="">送花网首页</a><span>></span><a href="">鲜花</a><span>></span>相约爱情海</div>
+  <!--place-end-->
+  <!--sidebar-star-->
+     <div class="sidebar">
+        <div class="xxcl">
+           <ul>
+             <li><a href="">红玫瑰</a></li>
+             <li><a href="">蓝玫瑰</a></li>
+             <li><a href="">粉玫瑰</a></li>
+             <li><a href="">白玫瑰</a></li>
+             <li><a href="">香槟玫瑰</a></li>
+             <li><a href="">戴安娜玫瑰</a></li>
+             <li><a href="">其它颜色</a></li>
+           </ul>
+        </div>
+        <div class="ll">
+           <div class="tl"><h4>您的浏览记录</h4></div>
+           <div class="cn"> 
+           <ul>
+             <li><a href=""><img src="images/xx/ll.jpg" /></a></li>
+             <li><span>￥179.00</span></li>
+           </ul>
+           <ul>
+             <li><a href=""><img src="images/xx/ll.jpg" /></a></li>
+             <li><span>￥179.00</span></li>
+           </ul>
+           </div>
+           <div class="cn"> 
+           <ul>
+             <li><a href=""><img src="images/xx/ll.jpg" /></a></li>
+             <li><span>￥179.00</span></li>
+           </ul>
+           <ul>
+             <li><a href=""><img src="images/xx/ll.jpg" /></a></li>
+             <li><span>￥179.00</span></li>
+           </ul>
+           </div>
+           <div class="cn"> 
+           <ul>
+             <li><a href=""><img src="images/xx/ll.jpg" /></a></li>
+             <li><span>￥179.00</span></li>
+           </ul>
+           <ul>
+             <li><a href=""><img src="images/xx/ll.jpg" /></a></li>
+             <li><span>￥179.00</span></li>
+           </ul>
+           </div>
+           <div class="clear"></div>
+        </div>
+        <div class="rm">
+           <div class="tl"><h4>热卖排行榜</h4></div> 
+           <ul>
+             <li><a href=""><img src="images/xx/hot.jpg" /></a></li>
+             <li><a href="">灿烂青春花束</a></li>
+             <li>市场价：<strong>￥</strong><span class="thr">200.00</span></li>
+             <li>送花价：<span class="hs"><strong>￥</strong>180.00</span></li>
+           </ul>
+           <ul>
+             <li><a href=""><img src="images/xx/hot.jpg" /></a></li>
+             <li><a href="">灿烂青春花束</a></li>
+             <li>市场价：<strong>￥</strong><span class="thr">200.00</span></li>
+             <li>送花价：<span class="hs"><strong>￥</strong>180.00</span></li>
+           </ul>
+           <ul>
+             <li><a href=""><img src="images/xx/hot.jpg" /></a></li>
+             <li><a href="">灿烂青春花束</a></li>
+             <li>市场价：<strong>￥</strong><span class="thr">200.00</span></li>
+             <li>送花价：<span class="hs"><strong>￥</strong>180.00</span></li>
+           </ul>
+           <ul>
+             <li><a href=""><img src="images/xx/hot.jpg" /></a></li>
+             <li><a href="">灿烂青春花束</a></li>
+             <li>市场价：<strong>￥</strong><span class="thr">200.00</span></li>
+             <li>送花价：<span class="hs"><strong>￥</strong>180.00</span></li>
+           </ul>
+           <ul>
+             <li><a href=""><img src="images/xx/hot.jpg" /></a></li>
+             <li><a href="">灿烂青春花束</a></li>
+             <li>市场价：<strong>￥</strong><span class="thr">200.00</span></li>
+             <li>送花价：<span class="hs"><strong>￥</strong>180.00</span></li>
+           </ul>
+        </div>
+        <div class="art">
+           <div class="tl"><h4>最新文章信息</h4></div> 
+           <ul>
+             <li><a href="">卡通花束玩偶介绍——kitty猫</a></li>
+             <li><a href="">感恩节，父母的感恩不能忘！</a></li>
+             <li><a href="">光棍节送给男性朋友的鲜花搭</a></li>
+             <li><a href="">卡通花束玩偶介绍——米奇</a></li>
+             <li><a href="">感恩节——感谢父母恩师</a></li>
+             <li><a href="">2011年11月11日，光棍节or...</a></li>
+             <li><a href="">卡通花束玩偶介绍——维尼熊</a></li>
+             <li><a href="">卡通花束玩偶介绍——米奇</a></li>
+           </ul>
+        </div>
+     </div>
+  <!--sidebar-end-->
+  <!--main-star-->
+     <div class="main">
+       <div>
+        <div class="spzs">
+           <div id="slidenews">
+             <dl><dt><a href="#" id="slidelink" target="_blank"><img src="images/xx/cp.jpg" id="slidepic" /></a></dt><dd id="slideintro"></dd></dl>
+              <ul id="slidelist">
+                <li class="current"><img src="images/xx/cp.jpg" /></li>
+                <li><img src="images/xx/hot.jpg" /></li>
+              </ul>
+          </div>
+          <div class="share">
+             <ul>
+                <li class="sc"><a target="_blank" href="">收藏该产品</a></li>
+                <li class="fx">
+                    <span>分享到：</span><a href="" class="sina"></a><a href="" class="qzone"></a><a href="" class="weibo"></a><a href="" class="kaixin"></a><a href="" class="renren"></a>
+                </li>
+             </ul>
+          </div>
+        </div>
+        <div class="cp_xg">
+           <h2>相约爱琴海</h2>
+           <p>红玫瑰11枝,黄莺点缀，内衬紫色绵纸，外用粉色裙边纸圆
+形包装. 附送一只可爱小公仔</p>
+           <ul class="xg_cp">
+              <li style="height:22px;"><span>送花价：</span><strong class="price" >179.00</strong>元</li>
+              <li><span>市场价：</span>280.00元</li>
+              <li style="border:1px solid red;"><span style="float:left;">促　销：</span><a href="javascript:;">vip：</a>38.64元
+              </li>
+              <li><span>运　费：</span>全国市区免运费</li>
+              <li><span>已售出：</span>12件</li>
+              <li><span>送积分：</span>每购买一件赠送200积分<span class="jifen">（100积分=1元）</span></li>
+              <li><span>我要买：</span><input name="" type="text" value="1" />件</li>
+           </ul>
+           <div class="f_buy"><a href="#" class="gm"></a><a href="#" class="p_car"></a></div>
+           <ul class="gs">
+              <li>全国首家推出无卡消费订购鲜花网站</li>
+              <li>您只要拨打客服电话400--7070-500</li>
+              <li>告诉我们您的信用卡号 就可以安全支付花款</li>
+           </ul>
+           <div class="ggw"><a href=""><img src="images/xx/adw.jpg" /></a></div>
+        </div>
+        <div class="clear"></div>
+       </div>
+        <!--taocan-star-->
+        <div style="margin-top:20px;" class="taocan">
+           <div class="dp"><h4>搭配套餐1</h4><span class="dp_cp"><a href="" class="before"></a><a href="" class="current">1</a><a href="">2</a><a href="" class="last"></a></span></div>       
+           <div class="cn">
+              <ul>
+                 <li class="def"><a href=""><img src="images/xx/tc.jpg" /></a></li>
+                 <li><a href="">中礼巧克力...</a></li>
+                 <li>原价：399.00</li>
+              </ul>
+              <span class="jg"></span>
+              <ul>
+                 <li><a href=""><img src="images/xx/tc1.jpg" /></a></li>
+                 <li><a href="">保鲜花玫瑰...</a></li>
+                 <li>原价：29.00</li>
+              </ul>
+              <span class="jg"></span>
+              <ul>
+                 <li><a href=""><img src="images/xx/cc_w.jpg" /></a></li>
+              </ul>
+              <span class="jg"></span>
+              <ul>
+                 <li><a href=""><img src="images/xx/cc_w.jpg" /></a></li>
+              </ul>
+              <span class="jg"></span>
+              <ul>
+                 <li><a href=""><img src="images/xx/cc_w.jpg" /></a></li>
+              </ul>
+              <span class="js_fg"></span>
+              <ul class="tc_ck">
+                 <li class="one">套餐价格：<span>219.00</span></li>
+                 <li>节省：209.00</li>
+                 <li><a href="" class="ck">查看套餐</a></li>
+              </ul>
+           </div>
+        </div>
+        <!--taocan-end-->
+        <!--shangpinxiangqing-star-->
+        <div id="goodsMinorDetail">
+        <div class="drawer">
+        	<div class="drawer_title">
+            	<h3 class="drawer_hover">商品详情</h3><h3>评价详情</h3><h3>如何购买</h3><h3>售后服务</h3>
+           	</div>
+            <div class="drawer_content1">
+            <div class="cp_xq">
+               <div class="order_xx">
+                  <ul>
+                     <li>品牌：送花网</li>
+                     <li>货号：s242424</li>
+                     <li>花材：11朵玫瑰+满天星</li>
+                     <li>朵数：12朵</li>
+                     <li>用途：爱情 生日 祝福 婚庆</li>
+                     <li>送花节日：情人节 七夕节圣诞节</li>
+                     <li>送花对象：恋人 老师  客户 领导</li>
+                  </ul>
+               </div>
+               <div class="sp_sm">
+                <div class="tl"><h3>商品说明</h3></div>
+                <div class="cn">
+                  <p><span>[ 名称 ] </span>心形礼盒</p>
+                  <p><span>[ 编号 ] </span>SH001301</p>
+                  <p><span>[ 花材 ] </span>11枝粉玫瑰，底部配绿叶
+  外围白纱 配小熊一只精美心型礼盒</p>
+                  <p><span>[ 花语 ] </span>我爱的你拥有一颗纯洁天真的心，因此让我小心翼翼地呵护 你是我的唯一，让我的爱传递着，你永被这满满的白色幸福所包围</p>
+                  <p><span>[ 配送区域 ] </span>全国市区范围</p>
+                  <p><img src="images/xx/xh_ts.gif" /></p>
+                </div>
+            </div>
+              <div class="sp_sm">
+        	    <div class="tl"><h3>花卉百科</h3></div>
+			   <div class="cn">
+            	<p><a href="" target="_blank" style="color:#f00;">[优品生活]</a>
+                <a href="" target="_blank">观叶植物或青翠碧绿，或叶色斑斓，或叶形奇特，是美化居室的佳品。下面介绍几种家庭宜栽的观叶植物。...</a></p>
+		 		<p><a href="" target="_blank" style="color:#f00;">[情人节]</a><a href="" target="_blank">
+情人节快要到来了！在这个寒冷的季节如何保持美丽与心爱的他去约会呢？爱美网小编为你介绍三款精致的浪漫帽子发型，让你无论什么时候都保持魅力无限！
+紫色毛绒贝雷帽
+　　紫色的毛茸茸贝雷帽充满学院风...</a></p>
+		 		<p><a href="" target="_blank" style="color:#f00;">[花语星运]</a><a href="" target="_blank">
+在白雪皑皑的青藏高原，生长着一种非常名贵的植物——雪莲，被藏族人民视为神花圣卉。...</a></p>
+		 		<p><a href="" target="_blank" style="color:#f00;">[七夕节]</a><a href="" target="_blank">
+牛郎织女传说是我国四大民间传说之一，也是在我国民间流传时间最早、流传地域最广的传说，在我国民间文学史上具有十分重要的地位。 
+　　追溯由牛郎织女传说形成七夕节的过程，时间当在战国，地点则在楚国。查...</a></p>
+		 		<p><a href="" target="_blank" style="color:#f00;">[花卉药效]</a><a href="" target="_blank">
+木瓜又称宣木瓜，性温，味酸，气香，入肝、脾二经。祖国医学认为：木瓜能理脾和胃，平肝舒筋，可走筋脉而舒挛急，为治一切转筋、腿痛、湿痹、脚气的要药。...</a></p>
+		 		<p><a href="" target="_blank" style="color:#f00;">[圣诞节]</a><a href="" target="_blank">
+圣诞贺卡可以分：卡片式和网页式贺卡两种。圣诞贺卡(圣诞卡片)在美国和欧洲很流行，这也是维持远处亲戚和朋友关系的一种好方法.许多家庭随贺卡带上年度家庭合照，或/和家庭新闻，新闻一般包括家庭成员在过去一年的...</a></p>
+		 	  </div>	
+        </div>
+        
+            </div>
+            <div class="pj_xq" style="margin-top:12px;">
+              <div class="tl"><h3>评价详情</h3></div>
+              <div class="cn" style="float:left; width:747px;">
+               <dl>
+                    <dt><span>wan_yi_xing</span><span class="date">评价时间：2011-10-07 11:13:10</span></dt>
+                    <dd><span></span><p>花很新鲜，老婆很喜欢！下次还来这里买。</p></dd>
+                 </dl>
+                 <dl class="ou">
+                    <dt><span>wan_yi_xing</span><span class="date">评价时间：2011-10-07 11:13:10</span></dt>
+                    <dd><span></span><p>花很新鲜，老婆很喜欢！下次还来这里买。</p></dd>
+                 </dl>
+                 <dl>
+                    <dt><span>wan_yi_xing</span><span class="date">评价时间：2011-10-07 11:13:10</span></dt>
+                    <dd><span></span><p>花很新鲜，老婆很喜欢！下次还来这里买。</p></dd>
+                 </dl>
+                 <dl class="ou">
+                    <dt><span>wan_yi_xing</span><span class="date">评价时间：2011-10-07 11:13:10</span></dt>
+                    <dd><span></span><p>花很新鲜，老婆很喜欢！下次还来这里买。</p></dd>
+                 </dl>
+                 <div class="clear"></div>
+              </div> 
+              <div class="badoo" style="float:left; margin:10px 0; width:750px;">
+        <span class="tj" style="margin:0px;"><a href="">上一页</a><a href="" class="current">1</a><a href="">2</a><a href="">3</a><a href="#" style="border:none; background:none; color:#333;">...</a><a href="">下一页</a></span>
+     </div>
+            </div>
+            </div>
+            
+            <div class="pj_xq drawer_content1" style="display:none;">
+              <div class="cn">
+               <dl>
+                    <dt><span>wan_yi_xing</span><span class="date">评价时间：2011-10-07 11:13:10</span></dt>
+                    <dd><span></span><p>花很新鲜，老婆很喜欢！下次还来这里买。</p></dd>
+                 </dl>
+                 <dl class="ou">
+                    <dt><span>wan_yi_xing</span><span class="date">评价时间：2011-10-07 11:13:10</span></dt>
+                    <dd><span></span><p>花很新鲜，老婆很喜欢！下次还来这里买。</p></dd>
+                 </dl>
+                 <dl>
+                    <dt><span>wan_yi_xing</span><span class="date">评价时间：2011-10-07 11:13:10</span></dt>
+                    <dd><span></span><p>花很新鲜，老婆很喜欢！下次还来这里买。</p></dd>
+                 </dl>
+                 <dl class="ou">
+                    <dt><span>wan_yi_xing</span><span class="date">评价时间：2011-10-07 11:13:10</span></dt>
+                    <dd><span></span><p>花很新鲜，老婆很喜欢！下次还来这里买。</p></dd>
+                 </dl>
+                 <div class="clear"></div>
+              </div> 
+              <div class="badoo" style="float:left; margin:10px 0; width:750px;">
+        <span class="tj" style="margin:0px;"><a href="">上一页</a><a href="" class="current">1</a><a href="">2</a><a href="">3</a><a href="#" style="border:none; background:none; color:#333;">...</a><a href="">下一页</a></span>
+     </div>
+            </div>
+            <div class="pj_xq drawer_content1" style="display:none; border:none;">
+              <div class="cn">
+                 <img src="images/xx/flow_tips.gif" style="margin-left:10px;" />
+              </div> 
+            </div>
+        <div class="pj_xq drawer_content1" style="display:none; border:none;">
+              <div class="cn" style="text-align:center;">
+                 <img src="images/xx/cn.gif" />
+              </div> 
+            </div>
+        </div>
+    </div>
+        <!--shangpinxiangqing-end-->
+     </div>
+  <!--main-end-->
+  <!--page-star-->
+     
+  <!--page-end-->   
+  <!--fuwu-star-->
+      <div id="serve">
+         <div>
+            <h2>新手指南</h2>
+            <ul>
+              <li><a href="">新用户注册</a></li>
+              <li><a href="">购物流程</a></li>
+              <li><a href="">支付方式</a></li>  
+              <li><a href="">发票制度</a></li> 
+              <li><a href="">常见问题</a></li>  
+            </ul>
+         </div>
+         <p></p>
+         <div>
+            <h2>物流配送</h2>
+            <ul>
+              <li><a href="">配送说明</a></li>
+              <li><a href="">配送范围</a></li>
+              <li><a href="">配送时间</a></li>  
+              <li><a href="">配送费用</a></li> 
+            </ul>
+         </div>
+         <p></p>
+         <div>
+            <h2>售后服务</h2>
+            <ul>
+              <li><a href="">订单查询</a></li>
+              <li><a href="">投诉处理</a></li>
+              <li><a href="">联系客服</a></li>  
+            </ul>
+         </div>
+         <p></p>
+         <div>
+            <h2>积分会员</h2>
+            <ul>
+              <li><a href="">会员制度</a></li>
+              <li><a href="">积分制度</a></li>
+              <li><a href="">优惠券</a></li>  
+            </ul>
+         </div>
+         <p></p>
+         <div>
+            <h2>关于送花网</h2>
+            <ul>
+              <li><a href="">品牌服务</a></li>
+              <li><a href="">业务合作</a></li>
+              <li><a href="">联系我们</a></li>  
+            </ul>
+         </div>
+         <p></p>
+         <div><img src="images/phone.gif" class="phone" /><img src="images/ly.gif" class="ly" /></div>
+      </div>
+  <!--fuwu-end-->
+  <!--fuwu1-star-->
+      <div id="serve1"><img src="images/serve.gif" /></div>
+  <!--fuwu1-end-->
+  <!--footer-star-->
+      <div id="footer">
+         <div><a href=""><img src="images/jftd.jpg" /></a><a href=""><img src="images/cfr.jpg" /></a><a href=""><img src="images/fp.jpg" /></a><a href=""><img src="images/jb.jpg" /></a><a href=""><img src="images/110.jpg" /></a></div>
+         <div class="blink"><a href="">关于我们</a>|<a href="">隐私保护</a>|<a href="">投诉赔偿</a>|<a href="">联系我们</a>|<a href="">网站地图</a>|<a href="">鲜花百科</a>|<a href="">鲜花博客</a>|<a href="">花集网</a>|<a href="">光棍节鲜花</a> 
+        </div>
+        <div class="copyright">Copyright&copy;2011 送花网 All Rights Reserved.&nbsp;&nbsp;京ICP证070655号&nbsp;&nbsp;京ICP备09001122号-1&nbsp;&nbsp;京公网安备110102003098号</div>
+        <div class="sec"><a href=""><img src="images/tdflag1.jpg" /></a></div>
+      </div>
+  <!--footer-end-->
+ </div>
+ </div>
+ <!--container-->
+ <script language="javascript" type="text/javascript">
+var slideNews = function(){
+    var slidePic = $('slidepic');
+    var slideLink = $('slidelink');
+    var imgIntro = $('slideintro');
+    var slideList = $('slidelist');
+    var slideItems = slideList.getElementsByTagName('li');
+    var lastSelected = slideItems[0];
+    var length = slideItems.length, i;
+    function $(i){
+        if (typeof i === "string") {
+            if (document.getElementById && document.getElementById(i)) {// W3C DOM
+                return document.getElementById(i);
+            }
+            else {
+                if (document.all && document.all(i)) {// MSIE 4 DOM
+                    return document.all(i);
+                }
+                else {
+                    if (document.layers && document.layers[i]) {// NN 4 DOM.. note: this won't find nested layers
+                        return document.layers[i];
+                    }
+                    else {
+                        return false;
+                    }
+                }
+            }
+        }
+        else {
+            return i;
+        }
+    };
+    return {
+        init: function(){
+            if (!$('slidepic') || !$('slidelink') || !$('slideintro') || !$('slidelist') || !document.getElementsByTagName) {
+                return false;
+            }
+            else {
+                for (i = 0; i < length; i++) {
+                    slideItems[i].onmouseover = function(){
+                            lastSelected.className = "";
+                            slidePic.src = this.getElementsByTagName('img')[0].src;
+                            slideLink.href = this.getElementsByTagName('a')[0].href;
+                            imgIntro.innerHTML = this.getElementsByTagName('img')[0].alt;
+                            this.className = "current";
+                            lastSelected = this;
+                        }
+                }
+            }
+        }
+    }
+}();
+</script>
+<script language="javascript" type="text/javascript">
+<!--
+slideNews.init();
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+#goodsMinorDetail{
+  float:right;
+  margin-top:10px;
+}
+#goodsMinorDetail .drawer .drawer_content,#customerComment .drawer .drawer_content{
+	border-bottom:1px solid #E8E8E8;
+	border-left:1px solid #E8E8E8;
+	border-right:1px solid #E8E8E8;
+	width:748px; padding:18px 0;
+}
+#goodsMinorDetail .drawer .drawer_content p{ color:#000; padding:3px 10px 3px 15px}
+#goodsMinorDetail .drawer .drawer_content p span{color:#4F0617; font-weight:700}
+#goodsMinorDetail .tips{ padding-left:12px; margin-top:20px}
+
+#commentList{width:660px; margin:0 auto; padding:0; display:block; overflow:hidden; background:#fff;}
+#commentList li{color:#646464; width:648px; border:1px solid #E3E3E3; background:#F7F7F7; margin-bottom:10px; padding:5px; display:block; overflow:hidden;}
+#commentList .comment_author{float:left; width:188px;}
+#commentList .comment_author span{color:#4F0619}
+#commentList .comment_rank{ float:left;width:200px;}
+#commentList .comment_time{ float:right;width:180px;}
+#commentList p{ clear:both; width:100%; display:block;color:#4F0619;  }
+#commentList p span{ color:#646464}
+
+#commentPaginator,#commentForm{ width:100%; display:block; overflow:hidden; text-align:center;}
+#commentForm{ margin-top:8px;}
+#commentForm .comment_textarea{ float:left; display:block; width:530px; padding-left:15px}
+#commentForm .comment_submmit{float:left; display:block; width:90px; padding-left:6px;}
+#commentForm .comment_submmit span{ display:block; overflow:hidden; text-align:left; padding-bottom:8px}
+#commentForm .comment_textarea textarea{ width:530px; height:80px;}
+
+#commentForm .comment_tips{ width:660px; display:block; margin:0 auto; overflow:hidden; padding-top:15px;}
+#commentForm .comment_tips span{  float:left; display:inline; overflow:hidden; padding-right:8px;}
+#commentForm .comment_tips span a{color:#896845}
+#commentForm .comment_tips span a:hover{ text-decoration:underline}
+#commentForm .comment_tips .comment_tips_text{ padding-left:200px; padding-top:2px; color:#CDCDCD}
+
+#commentHiddenMenu{ position:absolute; z-index:9959;}
+/*float signin panel*/
+#userLogin{width:500px; display:block; overflow:hidden; background:#fff;}
+.ui_common_c .common_submit{background:url(images/member_bg.png) no-repeat;}
+.ui_common{border:2px solid #DCDFE6; display:block; overflow:hidden}
+.ui_common_t{color:#CA1538; font-size:14px; font-weight:700;border-bottom:1px solid #575562; margin:16px 20px 0 20px;padding:3px 0;}
+.ui_common_c{width:100%; display:block; overflow:hidden}
+
+.ui_common_c .input{margin-left:20px;padding-top:25px;color:#666; text-align:left;}
+.ui_common_c .input label{float:left;width:100px;display:inline; text-align:right;padding-top:6px}
+.ui_common_c .input input{width:240px;height:18px;border:1px solid #A4AFC3;}
+.ui_common_c .common_submit{ border:0; cursor:pointer;background-position:0 -275px;width:80px; height:25px;display:block;color:#fff; text-align:center; line-height:25px; font-weight:700}
+
+.ui_common_c .button{ padding:15px 0 15px 20px; width:300px; display:block; overflow:hidden;}
+.ui_common_c .button button{ display:inline; margin-right:6px;}
+
+#userLoginTips{ padding:20px 0; font-size:14px; height:100px;}
+/* special attribution */
+.spec_attr span{ float:left; display:block; width:60px; overflow:hidden; padding-top:6px;}
+.spec_attr p{ float:left; display:block; overflow:hidden;}

@@ -1,0 +1,224 @@
+#login_main{ float:left; padding:25px; background:#f5f5f5; margin-top:10px; width:910px; overflow:hidden;}
+.flow_step_1,.flow_step_2,.flow_step_3{background:url(images/arrow.png) no-repeat;}
+.flow_step_1{background-position:0 0}
+.flow_step_2{background-position:0 -40px}
+.flow_step_3{background-position:0 -78px}
+#flowMap{width:960px; margin:6px auto; display:block; overflow:hidden;height:33px; line-height:33px}
+#flowMap span{ float:left; display:inline; overflow:hidden;width:280px; text-align:center;font-weight:700;font-size:14px}
+#flowMap .flow_text_current{color:#fff}
+
+#flowTips{
+	padding:6px 0 6px 40px;margin:18px 0;display:block; overflow:hidden; clear:both;
+}
+#flowTips span{color:#CD274D;font-weight:700}
+
+#cartGoods,#cartGoods dl,#cartGoods dl dt,#cartGoods dl ul{width:100%;display:block;overflow:hidden}
+#cartGoods{ margin-bottom:10px}
+#cartGoods .f_3{font-size:14px; font-weight:700; padding-bottom:6px}
+#cartGoods dl ul li{float:left; display:block; overflow:hidden;text-align:center} 
+#cartGoods dl dt ul li{height:38px; line-height:38px; color:#fff}
+#cartGoods dl .c_name{width:260px}
+#cartGoods dl .c_mprice{width:180px}
+#cartGoods dl .c_sprice{width:180px}
+#cartGoods dl .c_amount{width:130px}
+#cartGoods dl .c_action{width:128px}
+#cartGoods dl dd{width:958px;}
+#cartGoods dl dd ul{ border-bottom:1px solid #BCB2B1}
+#cartGoods dl dd ul li{height:88px; line-height:88px;}
+#cartGoods dd .i_amount{width:30px;_margin-top:30px}
+#cartGoods dd .c_amount a{ text-decoration:underline}
+#cartGoods dd .c_amount a:hover{ text-decoration:none}
+#cartGoods dd .c_name{display: table-cell;*display:block;vertical-align:middle;font-size:77px;}
+#cartGoods dd .c_name span{font-size:12px; vertical-align:middle;font-weight:700}
+#cartGoods dd .c_name img{ vertical-align:middle}
+#cartGoods dd .c_mprice,#cartGoods dd .c_sprice{font-weight:700}
+#cartGoods dd .c_action a{ display:block; line-height:22px;margin-top:33px;width:72px; background-position:0 -42px; text-indent:-9999px}
+#cartGoods dd .cart_goods_sum{width:100%; display:block; overflow:hidden;background:#F6F6F6;height:58px; line-height:58px}
+#cartGoods dd .cart_goods_sum div{float:left;display:inline; overflow:hidden;}
+#cartGoods dd .cart_goods_sum .continue{width:260px; padding-left:20px}
+#cartGoods dd .cart_goods_sum .continue a{color:#1A1C97; text-decoration:underline}
+#cartGoods dd .cart_goods_sum .continue a:hover{ text-decoration:none}
+#cartGoods dd .cart_goods_sum .goods_sum_text{width:460px}
+#cartGoods dd .cart_goods_sum .rmb{font-size:16px;color:#898989}
+#cartGoods dd .cart_goods_sum .sum_price{ font-size:16px; font-weight:700; color:#F06522}
+#cartGoods dd .cart_goods_sum .to_order a{ display:block;height:40px; width:101px; background-position:0 0; text-indent:-9999px; line-height:40px; margin-top:9px}
+/* 流程区通用样式 */
+.ui_common_v2{ width:470px; display:block; overflow:hidden;}
+.ui_common_v2 dt{
+	height:28px; line-height:28px;font-size:12px; font-weight:bold; color:#fff; padding-left:15px; font-weight:700;
+	background:url(../images/gwlc/titil_bg.gif) repeat-x;}
+.ui_common_v2 dt span{
+ float:left;	
+}
+.ui_common_v2 dt a{
+ float:right;	
+ font-weight:400;
+ color:#fff;
+ margin-right:10px;
+ background:url(../images/gwlc/gwlc_bg.gif) -164px -76px no-repeat;
+ padding-right:10px;
+}
+.ui_common_v2 dt a:hover{
+ color:#fff;
+ text-decoration:none;
+}
+.ui_common_v2 dd{
+	border-left:1px solid #BCB2B1;
+	border-right:1px solid #BCB2B1;
+	border-bottom:1px solid #BCB2B1;display:block; overflow:hidden;
+}
+
+
+/* 登录区通用样式 */
+.ui_common{display:block; overflow:hidden; font-size:12px; background:url(../images/login/prompt_bg.gif) no-repeat; width:908px; height:179px;}
+.ui_common_t{color:#CA1538; font-size:18px; font-weight:700;border-bottom:1px solid #575562; margin:24px 24px 0 24px;padding:3px 0 3px 20px; background:url(../images/login/dlzc_bg.gif) no-repeat -402px 8px;}
+.ui_common_t1{ background:url(../images/login/dlzc_bg.gif) no-repeat 0 2px; padding-left:0; border:none; height:22px;}
+.ui_common_t1 h4{margin:0; padding-left:20px; background:url(../images/login/dlzc_bg.gif) no-repeat -402px 5px; color:#4c4c4c; font-size:18px;}
+.ui_common_c{width:100%; display:block; overflow:hidden;}
+
+#directlyOrder .directly_order{width:400px; display:inline; overflow:hidden; float:right;margin-right:20px; padding:24px 0;}
+#directlyOrder .directly_order p{float:left; line-height:25px;}
+#directlyOrder .directly_order p span{color:#FE5454}
+#directlyOrder .directly_order a{margin:15px 10px 0 0;float:right;width:190px;height:43px; background:url(../images/flow_bg.png) no-repeat -3px -140px; text-indent:-9999px;}
+#directlyOrder .directly_order_tips{width:380px;margin:8px 0; display:inline; overflow:hidden; float:left; margin-left:24px;}
+#directlyOrder .directly_order_tips h4{color:#FF5507; font-size:14px; font-weight:700; height:38px; line-height:38px; margin:0;}
+#directlyOrder .directly_order_tips p{color:#838383; font-size:14px; line-height:125%; padding-left:50px; background:url(../images/flow_bg.png) no-repeat -158px -40px; margin:0;}
+
+#memberLogin{float:left; width:447px; height:394px; background:url(../images/login/lo_re_bg.gif) no-repeat;}
+#memberLogin p{color:#999}
+#memberLogin .tips{margin:25px 0 0 80px;}
+#memberLogin .input{margin-left:80px;padding-top:20px;color:#666}
+#memberLogin .input input,#userRegister .input input{width:200px;height:22px; line-height:22px; border:1px solid #c4c4c4;}
+.clear{clear:both;}
+#memberLogin .remeber{margin-left:128px;padding-top:20px;color:#666}
+#memberLogin .remeber span,#memberLogin .remeber input{float:left;}
+#memberLogin .remeber span{margin:0px 18px 0 0;}
+#memberLogin .remeber input{margin-right:4px; height:12px;}
+#memberLogin .login{margin-left:128px;padding-top:14px;}
+#memberLogin .login input{float:left; background:url(../images/login/dlzc_bg.gif) no-repeat 0 -30px; width:98px; height:31px; border:none;}
+#memberLogin .login a{float:left; margin:11px 0 0 8px; color:#999999; text-decoration:none;}
+#memberLogin .login a:visited{color:#999999; text-decoration:none;}
+#memberLogin .login a:hover{color:#c00; text-decoration:none; cursor:pointer;}
+#memberLogin .alipayLogin{margin-left:128px;padding-top:25px;}
+#memberLogin .alipayLogin a{width:182px; height:44px; display:inline-block; background:url(../images/login/dlzc_bg.gif) 100% 100%;}
+#memberLogin .lost_pwd_tips{margin:8px 0 25px 135px; width:100px;display:block;}
+
+#memberLogin .help{ text-align:right; padding:0 60px 18px 0;}
+
+.common_submit{ border:0; cursor:pointer;margin:0 0 80px 135px;background-position:-73px -41px; height:25px; width:80px;display:block;color:#fff; text-align:center; line-height:25px; font-weight:700}
+
+#userRegister{float:right;width:447px;height:394px; background:url(../images/login/lo_re_bg.gif) no-repeat;}
+#userRegister .ui_common_c{padding-top:0px}
+#userRegister .input{margin-left:30px;padding-top:20px; width:350px;display:block;}
+#userRegister .input label{float:left;width:100px;display:inline; text-align:right;padding-top:6px;}
+#userRegister .input span{clear:both; display:block;margin-left:105px;padding:13px 0 13px 20px;}
+#userRegister .yzm input{width:60px;}
+#userRegister .serve_tk{margin-left:130px; color:#656565; padding-top:20px;}
+#userRegister .serve_tk a,#userRegister .serve_tk a:visited{color:#b40028; text-decoration:none;}
+#userRegister .serve_tk a:hover{color:#b40028; text-decoration:none; cursor:pointer;}
+#userRegister .f_register{margin-left:130px; padding-top:10px;}
+#userRegister .f_register input{width:130px; height:30px; background:url(../images/login/dlzc_bg.gif) no-repeat -101px -34px; border:none;}
+#userRegister .register_submit{margin-bottom:35px}
+#registerEmail{margin:10px 0 20px 0}
+
+
+#userRegister .n_right,#memberLogin .n_right{
+	background:url(images/ok.gif) no-repeat;
+	color:#0D5DB0;
+}
+#userRegister .n_error,#memberLogin .n_error{
+	background:url(images/error.gif) no-repeat;
+	color:#FF0000;
+}
+#userRegister .n_right{ background-position:0 10px;}
+#userRegister .n_error{ background-position:0 10px;}
+#memberLogin .n_right,#memberLogin .n_error{ padding-left:20px}
+#memberLogin .input label{color:#333;}
+#memberLogin .input input{color:#666;}
+#customerInfo,#receiverInfo{float:left; display:block; overflow:hidden; width:470px; margin-bottom:6px;}
+#customerInfo dd,#receiverInfo dd{height:210px; display:block;}
+#receiverInfo{float:right;}
+#attachedInfo{clear:both; width:100%; display:block; overflow:hidden; margin-bottom:6px;}
+#attachedInfo dd,#payInfo dd{width:848px;}
+#attachedInfo h4{height:19px; width:123px; background:url(../images/flow_bg.png) 0 -76px no-repeat; text-indent:-9999px; cursor:pointer; float:left; display:inline; margin-left:16px}
+#attachedCardInfo{width:100%; display:block; overflow:hidden; padding-top:12px}
+#attachedInfo .grey{ color:#666}
+
+#payInfo .do_order,#confirmPage .do_pay{width:189px; height:43px;display:block; text-indent:-9999px; margin:30px auto}
+#payInfo .do_order{background:url(../images/flow_bg.png) no-repeat 0 -186px; border:0; cursor:pointer}
+#payInfo h4{ color:#FD9A01; font-weight:700; padding-left:15px}
+#payInfo ul{ padding-top:8px}
+
+#bankCard,#payOnline,#payOffline,#payYu,#rank_score{display:block; width:800px; padding-left:20px; overflow:hidden;}
+#bankCard li,#payOnline li{float:left; display:inline; overflow:hidden;width:155px; margin:0 5px 10px 0}
+#bankCard li input,#payOnline li input{ float:left; position:relative; top:5px;}
+#bankCard li span,#payOnline li span{display:table-cell;vertical-align:middle;float:right;*display:block;overflow:hidden;width:130px; height:35px; *font-size:30px;text-align:center;border:1px solid #C7C9C8; background:#fff;cursor:pointer}
+#bankCard li span img,#payOnline li span img{ vertical-align:middle}
+#discount{
+ padding-left:16px;	
+ margin-top:-8px;
+ _margin-top:-26px;
+ list-style:none;
+}
+#discount li{
+ margin-bottom:12px;
+}
+#discount li span{
+ color:#fd9a01;
+ font-weight:bold;
+}
+#discount li input{
+ margin:0px 5px;
+}
+#youhui{
+ border:1px solid #c7c7c7;
+ padding:4px 10px;
+ width:370px;
+ margin-left:24px;
+}
+#youhui li{
+ margin-bottom:10px;
+}
+#youhui li input{
+ margin-right:6px;
+}
+#customerInfo dd,#receiverInfo dd,#attachedInfo dd,#payInfo dd,#confirmPage dd{background:#F6F6F6; padding:15px; display:block; overflow:hidden;}
+.ui_common_v2 p{width:100%; display:block; overflow:hidden; padding-bottom:8px; color:#000}
+.ui_common_v2 p .required{ color:#f00; padding-right:2px}
+.ui_common_v2 p .tips{ display:block; line-height:20px; margin-top:5px; padding-left:8px; color:#666}
+.ui_common_v2 p .tips1{ display:block; line-height:20px; margin-top:5px; padding-left:80px; color:#666}
+.ui_common_v2 dd p label{
+	display:inline; float:left; width:80px; text-align:right; line-height:23px;
+}
+
+#bonusBox{ padding-left:30px; display:block; overflow:hidden}
+#bonusBox li{ float:left; display:inline; overflow:hidden; padding:0 3px}
+#bonusBox h5{ position:relative; top:0px; *top:3px; font-weight:700}
+#bonusBox a{ text-indent:-9999px; background-position:-101px 0; width:51px; height:22px; display:block}
+
+#paySum{border:1px solid #F7C9D6; width:880px; margin:15px auto; _margin:4px auto; background:#FFF4F8; display:block; overflow:hidden}
+#paySum p{ float:left; display:inline; overflow:hidden; font-size:16px; height:35px; line-height:40px}
+#paySum .detail_money{ width:650px; padding-left:20px}
+#paySum .sum_money{ width:100px; padding-right:24px;  text-align:right; float:right;}
+#paySum p span{ font-weight:700}
+#paySum .sum_money span{ color:#FF5300; }
+
+#confirmPage dd{ padding:30px 0;}
+#confirmPage dd p{ margin:0 auto; width:700px; text-align:center; font-size:14px;  color:#666}
+#confirmPage .highlight{color:#D33156}
+#confirmPage .highlight_2{color:#F90}
+#confirmPage p a{color:#D33156;text-decoration:underline}
+#confirmPage p a:hover{ text-decoration:none}
+#confirmPage .do_pay{ border:0; cursor:pointer;background-position:0 -230px;}
+
+.err_text{
+	border:1px solid #FF5507; padding:3px 5px 3px 22px;
+	position:absolute; z-index:9993; color:#404040; margin-left:8px;
+	background:url(images/error.gif) 3px 2px no-repeat;
+	background-color:#FFF2F2;
+}
+.err_text_ex{
+	padding:5px 5px 3px 2px;
+	position:absolute; z-index:9993; color:#f00; margin-left:8px;
+	background-color:#FFF2F2;
+}

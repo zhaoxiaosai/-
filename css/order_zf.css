@@ -1,0 +1,78 @@
+.cart_fg{
+  width:960px;
+  height:2px;
+  border-top:1px solid #333333;
+  margin:16px 0 0px 0;
+}
+.cart_fg1{
+  width:960px;
+  height:2px;
+  border-top:1px solid #cccccc;
+  margin:70px 0 8px 0;
+  float:left;
+}
+.liucheng3{
+  width:960px;
+  height:20px;
+  background:url(../images/gwlc/arrow.gif) no-repeat 100% -50px;
+  margin-top:18px;
+}
+.order_zf{
+ width:958px;
+ border:1px solid #cccccc;
+ border-width:2px 1px 0px;
+ margin-top:16px;
+ _margin-top:4px;
+}
+.order_zf table{
+ border-right:1px solid #cccccc;
+}
+.order_zf td{
+ text-align:center;
+ padding:10px 0;
+}
+.order_zf td img{
+ width:60px;
+ height:60px;
+}
+.order_zf thead td{
+ background:#e7e7e7;
+ height:26px;
+ line-height:26px;
+ padding:0;
+}
+.order_zf tbody td{
+ border:1px solid #e2e1e1;
+ border-width:0px 1px 0px 0;
+ border-bottom:1px solid #cccccc;
+}
+
+.order_zf td span.hs{
+ color:#ed1c24;
+ font-weight:bold;
+ font-size:14px;
+}
+.order_zf .product{
+ text-align:left;
+ padding-left:20px;
+}
+.order_zf .product a{
+ font-weight:bold;
+ margin-right:10px;
+}
+.order_zf .product a:hover{
+ text-decoration:none;
+ cursor:pointer;
+}
+.zf_bt{
+ width:960px;
+ float:left;
+ text-align:right;
+ margin:12px 0 0 0;
+}
+.zf_bt a{
+ background:url(../images/gwlc/gwlc_bg.gif) no-repeat -127px -39px;
+ width:126px;
+ height:34px;
+ display:inline-block;
+}

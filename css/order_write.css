@@ -1,0 +1,174 @@
+.cart_fg{
+  width:960px;
+  height:2px;
+  border-top:1px solid #333333;
+  margin:20px 0 0px 0;
+}
+.cart_fg1{
+  width:960px;
+  height:2px;
+  border-top:1px solid #cccccc;
+  margin:24px 0 8px 0;
+}
+.liucheng2{
+  width:960px;
+  height:20px;
+  background:url(../images/gwlc/arrow.gif) no-repeat 100% -24px;
+  margin-top:18px;
+}
+#flowTips{
+  background:url(../images/gwlc/gwlc_bg.gif) 16px -159px no-repeat;
+  border:1px solid #F7BE4B;
+  background-color:#FFF8EE;
+  padding:6px 0 6px 40px;
+  margin:16px 0;
+  display:block; 
+  overflow:hidden; 
+  clear:both;
+}
+#flowTips span{
+ color:#CD274D;
+ font-weight:700;
+}
+#cartGoods,#cartGoods dl,#cartGoods dl dt,#cartGoods dl ul{width:100%;display:block;overflow:hidden}
+#cartGoods{ margin-bottom:10px}
+#cartGoods .f_3{font-size:14px; font-weight:700; padding-left:32px; color:#ed1c24; background:url(../images/gwlc/gwlc_bg.gif) no-repeat -8px -75px; height:24px; line-height:24px;}
+#cartGoods .g_c{
+ width:958px;
+ border:1px solid #cccccc;
+ border-width:2px 1px 1px;
+ background:#f1f1f1;
+ margin-top:6px;
+}
+#cartGoods .g_c ul.one{
+ width:958px;
+ background:#e7e7e7;
+ height:30px;
+ line-height:30px;
+}
+#cartGoods .g_c ul.one li{
+ float:left;
+ text-align:center;
+}
+#cartGoods .g_c ul.one .c_name{
+ width:330px;
+}
+#cartGoods .g_c ul.one .c_price{
+ width:140px;
+}
+#cartGoods .g_c ul.one .c_amount{
+ width:132px;
+}
+#cartGoods .g_c ul.one .c_youhui{
+ width:105px;
+}
+#cartGoods .g_c ul.one .c_xiaoji{
+ width:114px;
+}
+#cartGoods .g_c ul.one .c_action{
+ width:130px;
+}
+#cartGoods .g_c ul.two{
+ width:958px;
+ background:#fff;
+ float:left;
+ padding:12px 0;
+ border-bottom:1px solid #cccccc;
+}
+#cartGoods .g_c ul.two li{
+ float:left;
+ text-align:center;
+}
+#cartGoods .g_c ul.two .c_name{
+ width:318px;
+ text-align:left;
+ padding-left:12px;
+}
+#cartGoods .g_c ul.two .c_name img{
+ width:60px;
+ height:60px;
+}
+#cartGoods .g_c ul.two .c_name span{
+ margin-left:12px;
+}
+#cartGoods .g_c ul.two .c_name span a,#cartGoods .g_c ul.two .c_name span a:visited{
+ color:#333;
+ text-decoration:none;
+ font-weight:bold;
+}
+#cartGoods .g_c ul.two .c_name span a:hover{
+ color:#c00;
+ text-decoration:none;
+ font-weight:bold;
+}
+#cartGoods .g_c ul.two .c_price{
+ width:140px;
+ margin-top:22px;
+}
+#cartGoods .g_c ul.two .c_amount{
+ width:100px;
+ padding-left:32px;
+ margin-top:18px;
+}
+#cartGoods .g_c ul.two .c_amount a{
+ float:left;
+ margin:5px 0 0 0;
+}
+#cartGoods .g_c ul.two .c_amount input{
+ border:1px solid #7f9db9;
+ float:left;
+ width:34px;
+ height:18px;
+ line-height:18px;
+ text-align:center;
+ font-size:12px;
+ margin:0 6px 0 6px;
+}
+#cartGoods .g_c ul.two .c_youhui{
+ width:105px;
+ margin-top:22px;
+}
+#cartGoods .g_c ul.two .c_xiaoji{
+ width:114px;
+ margin-top:22px;
+}
+#cartGoods .g_c ul.two .c_xiaoji span{
+ font-weight:bold;
+ color:#ed1c24;
+}
+#cartGoods .g_c ul.two .c_action{
+ width:130px;
+ margin-top:22px;
+}
+#cartGoods .g_c .goods_sum_text{
+ text-align:right;
+ height:30px;
+ line-height:30px;
+ padding-right:14px;
+ float:right;
+}
+#cartGoods .g_c .goods_sum_text span{
+ font-weight:bold;
+ font-size:14px;
+ color:#ed1c24;
+}
+#cartGoods .continue{
+ float:left;
+ margin-top:14px;
+}
+#cartGoods .continue a{
+ background:url(../images/gwlc/gwlc_bg.gif) no-repeat 0 0;
+ width:122px;
+ display:inline-block;
+ height:34px;
+}
+#cartGoods .to_order{
+ float:right;
+ margin-top:14px;
+}
+#cartGoods .to_order a{
+ background:url(../images/gwlc/gwlc_bg.gif) no-repeat -122px 0;
+ width:130px;
+ display:inline-block;
+ height:34px;
+}

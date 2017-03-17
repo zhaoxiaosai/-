@@ -1,0 +1,115 @@
+span.jl{
+  margin:0 24px 0 0;
+}
+span.jl1{
+  margin:0 40px 0 0;
+}
+span.green{
+  color:#0bb902;
+}
+span.green1{
+  color:#0bb902;
+  margin-right:30px;
+}
+span.red{
+  font-weight:bold;
+  color:#f00;
+  margin:0 0 0 8px;
+  font-size:16px;
+}
+.cart_fg{
+  width:960px;
+  height:2px;
+  border-top:1px solid #333;
+  margin:16px 0 0px 0;
+}
+.cart_fg1{
+  width:960px;
+  height:2px;
+  border-top:1px solid #cccccc;
+  margin:24px 0 8px 0;
+}
+.liucheng4{
+  width:960px;
+  height:20px;
+  background:url(../images/gwlc/arrow.gif) no-repeat 100% -76px;
+  margin-top:18px;
+}
+.zfcg{
+  border:1px solid #f7be4b;
+  background:#fffbee;
+  width:958px;
+  overflow:hidden;
+  margin:16px 0 0px 0;
+  _margin:4px 0 0px 0;
+  padding-bottom:34px;
+}
+.zfcg div.one{
+  background:url(../images/gwlc/gwlc_bg.gif) no-repeat 0 -103px;
+  height:47px;
+  margin:24px 0 0 220px;
+  padding:0 0 0 75px;
+  vertical-align:bottom;
+}
+.zfcg div.one p.first{
+  font-size:16px;
+  font-weight:bold;
+  color:#333;
+  margin:6px 0 16px 0;
+  position:relative;
+  top:6px;
+}
+.zfcg div.two{
+  margin:30px 0 0 296px;
+}
+.zfcg div.two p.first{
+  font-size:14px;
+  font-weight:bold;
+  color:#333;
+  margin:6px 0 8px 0;
+}
+.zfcg div.two p.first a,.zfcg div.two p.first a:visited{
+  color:#da0810;
+  text-decoration:underline;
+}
+.zfcg div.two p.first a:hover{
+  color:#da0810;
+  text-decoration:underline;
+}
+.zfcg div.two p.two{
+  margin-bottom:8px;
+}
+.zfcg div.two p.two a{
+  color:#da0810;
+  text-decoration:none;
+}
+.zfcg div.three{
+  margin:20px 0 0 296px;
+  height:25px;
+}
+.zfcg div.three span,.zfcg div.three a{
+  float:left;
+}
+.zfcg div.three a{
+  color:#2577b8;
+  margin:6px 8px 0 0;
+}
+.zfcg div.three span a{
+  background:url(../images/gwlc/gwlc_bg.gif) no-repeat 0 -40px;
+  width:126px;
+  height:26px;
+  line-height:26px;
+  text-align:center;
+  display:inline-block;
+  color:#333;
+  font-weight:bold;
+  margin-top:0;
+}
+.zfcg div.three span a,.zfcg div.three span a:visited{
+  color:#333;
+  text-decoration:none;
+}
+.zfcg div.three span a:hover{
+ text-decoration:none;
+ cursor:pointer;
+}
